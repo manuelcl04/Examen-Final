@@ -7,3 +7,4 @@ pathlib
 yfinance
 matplotlib
 plotly
+seaborn
