@@ -202,7 +202,7 @@ def create_animated_figure(selected_cryptos):
 # ============================================================
 app10 = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
-server=app.server
+server=app10.server
 
 tabs = dbc.Tabs([
 
