@@ -1,0 +1,9 @@
+dash
+plotly.express
+pandas
+dash_bootstrap_components
+gunicorn
+pathlib
+yfinance
+matplotlib
+plotly
