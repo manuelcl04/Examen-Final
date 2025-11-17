@@ -569,4 +569,4 @@ def update_animation(selected_cryptos):
 #               RUN
 # ============================================================
 if __name__ == "__main__":
-    app10.run((debug=False, host="0.0.0.0",port=10000)
+    app10.run(debug=False, host="0.0.0.0",port=10000)
