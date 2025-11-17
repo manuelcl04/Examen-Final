@@ -30,8 +30,8 @@ import dash_bootstrap_components as dbc
 tickers = ["KO", "PG", "PEP", "HON", "CAT", "MMM"]
 data = yf.download(tickers, start="2022-01-01", end="2025-11-01", auto_adjust=False)["Close"]
 
-df1 = pd.read_csv("crypto1.csv")
-df2 = pd.read_csv("crypto2.csv")
+df1 = pd.read_csv("Crypto1.csv")
+df2 = pd.read_csv("Crypto2.csv")
 df = pd.concat([df1, df2], ignore_index=True)
 
 # -----------------  TAB 1 ----------------------
